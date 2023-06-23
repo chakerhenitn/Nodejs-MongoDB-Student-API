@@ -72,7 +72,7 @@ app.delete('/delete/:id', async (req, res)=>{
     }
 });
 //connect to the database Mongodb
-mongoose.connect('mongodb+srv://chakerhenitn:chakerhenitn@cluster0.kqxhta9.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://3333333:222222@cluster0.kqxhta9.mongodb.net/?retryWrites=true&w=majority')
 .then(() => console.log('Connected Successfully'))
 .catch((err) => { console.error(err); });
 //
